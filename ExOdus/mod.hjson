@@ -1,0 +1,8 @@
+name: "exodus"
+displayName: "ExOdus"
+author: PersonFromIraq
+description: "green planet mod haha"
+version: "0.1"
+minGameVersion: "158.1"
+dependencies: [ ]
+hidden: false

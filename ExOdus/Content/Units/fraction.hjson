@@ -1,0 +1,35 @@
+type: flying
+name: fraction
+flying: true
+description: the basic unit, and the only one you got after migrating to exodus after the events of your planet's core imploding from the inside causing the deep tissue of your planet to melt, it serves its purpose as a unit made for building the core and has capabilities of defending itself
+health: 400
+armor: 0
+hitsize: 8
+speed: 3.5
+accel: 0.12
+drag: 0.05
+mineTier:1
+mineSpeed:6
+buildSpeed:1
+coreUnitDock: true
+weapons: [
+{
+     name: fraction-laser
+     reload: 18
+     x: 10
+     y: 11
+     mirror: true
+     alternate: true
+     top: false
+     shootSound: lasershoot
+     
+     bullet: {
+         type: LaserBoltBulletType
+         speed: 5.5
+         damage: 8
+         lifetime: 40
+         frontColor: "B3FF5C"
+         backColor: "03C900"
+     }
+  }
+]
